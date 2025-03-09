@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 25pt;
+}
+
+.navbar .left a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .right a {
+    color: black;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 600px;
+}
+
+a.card-title {
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.about img {
+    width: 600px;
+}
